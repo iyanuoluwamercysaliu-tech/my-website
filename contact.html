@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
     <title>CONTACT US</title>
 </head>
 <body>
-   <p>Feel free to reach me 😊😁</p> 
+    <nav>
+    
+            <a href="home.html">Home 🏠</a>
+            <a href="about.html">About 📖</a>
+            <a href="services.html">Services 💼</a>
+            <a href="contact.html">Contact  📞</a>
+        </nav>
+   <h2>STUDENT REGISTRATION FORM</h2> 
+
+   <fieldset>
+       <legend>Personal Information</legend>
+       <label>Name:</label>
+       <input type="text" placeholder="Enter your name" minlength='5' maxlength='100' required>
+       <br><br>
+       <label>Email:</label>
+    <input type="email" placeholder="Enter your email" required>
+    <br><br>
+    <label>Address:</label>
+    <input type="text" placeholder="Enter your address">
+<br><br>
+    <label>School:</label>
+    <input type="text" placeholder="Enter your school" required> 
+      <br><br>   
+      <label>Phone:</label>
+    <input type="number" placeholder="Enter your phone no." required>
+    <br><br>
+     <label>Password:</label>
+    <input type="password" placeholder="Enter your password" minlength="8" required>
+    <br><br>
+     <label>Date of Birth:</label>
+    <input type="date" placeholder="Enter your date of birth" required>
+    <br><br>
+
+   <input type="checkbox">I agree to the terms and conditions
+   <input type="checkbox">I want to receive news letters and updates
+   <input type="checkbox">I do not agree to the terms and conditions
+    <br><br>
+
+    <p>Checks from the ones below:</p>
+    <label>Hobbies:</label>
+    <br>
+    <input type="checkbox" id="Football" name="hobby" value="Football">
+    <label for="Football">Football</label>
+    <br>
+    <input type="checkbox" id="Football" name="hobby" value="Music">
+    <label for="Music">Music</label>
+    <br><br>
+
+    
+   </form>
+   <p>Tell us your thoughts!</p>
+   <textarea rows="10" cols="100" placeholder="Enter your thoughts here..."></textarea>
+
+   <p>Which country are you from?</p>
+  <label>Please select your country:</label>
+ <select placeholder="Select your country">
+    <option>USA</option>
+    <option>Canada</option>
+    <option >UK</option>
+    <option>Australia</option>
+    <option>India</option>
+</select>
+
+<p>What is your favorite color?</p>
+<label>Please select your favorite color:</label>
+<select placeholder="Select your favorite color" value="" selected >
+    <option>Red</option>
+    <option>Blue</option>
+    <option>Green</option>
+    <option>Yellow</option>
+    <option>Purple</option>
+</select>
+   </fieldset>
+   <button type="submit"><a href="success.html">Submit</a></button>
 </body>
 </html>
